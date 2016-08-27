@@ -1,7 +1,7 @@
-<h1 align="center">react-music</h1>
+<h1 align="center">preact-music</h1>
 
 <h4 align="center">
-  Make music with React!
+  Make music with Preact!
 </h4>
 
 ***
@@ -30,7 +30,7 @@
 
 ## Install
 
-`npm install react-music`
+`npm install preact-music`
 
 ## Get Started
 

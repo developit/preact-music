@@ -1,7 +1,7 @@
 {
-  "name": "react-music",
+  "name": "preact-music",
   "version": "1.0.1",
-  "description": "Make beats with react",
+  "description": "Make beats with preact",
   "main": "lib",
   "files": [
     "lib",
@@ -20,7 +20,7 @@
   },
   "author": "Ken Wheeler",
   "license": "MIT",
-  "repository": "https://github.com/FormidableLabs/react-music",
+  "repository": "https://github.com/developit/preact-music",
   "dependencies": {
     "audio-contour": "0.0.1",
     "note-parser": "^2.0.0",
