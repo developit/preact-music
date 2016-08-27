@@ -6,20 +6,16 @@ module.exports = {
   entry: path.join(__dirname, 'src/index.js'),
   externals: [
     {
-      'react': {
-        root: 'React',
-        commonjs2: 'react',
-        commonjs: 'react',
-        amd: 'react',
-      },
-      'react-dom': {
-        root: 'ReactDom',
-        commonjs2: 'react-dom',
-        commonjs: 'react-dom',
-        amd: 'react-dom',
-      },
+      'preact-compat': true,
+      'preact': true,
     },
   ],
+  resolve: {
+    alias: {
+      'react': 'preact-compat',
+      'react-dom': 'preact-compat'
+    }
+  },
   output: {
     library: 'ReactMusic',
     libraryTarget: 'umd',
